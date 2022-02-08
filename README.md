@@ -9,13 +9,14 @@ It consists of the following files:
 - `Codes/02 Scattering and gate transfer simulations.ipynb` Scattering of a photon when it bouncess off one of the ends of the waveguide. In this notebook we forget about the emission and obsorption processes and just focuss on obtaining the phase profile of the interaction and compare it to our analytical results.
 - `Codes/03 Phase gate simulations.ipynb` Simulation of a complete controlled phase gate. In this notebook we make use of all the concepts studied in the previous ones and combien the dynamic couplings with scattering to design a control phase gate.
 - `Codes/99 All article plots.ipynb`Notebook the loads data for the data folder and fabricates with it the plots that can be found in arXiv:2110.02092
-- 
+- `Stylelib` Folder that contains different styles for scientific data visualization. Projec developed by https://github.com/garrettj403/SciencePlots.
 - `Data` Folder in which the data of the simulations are stored.
 
 To run the simulations execute the Jupyter notebooks in the order in which they are listed above. In or4der for the simulations to succed you will need:
 - Python >= 3.9.
-- Numpy ...
-- Scipy ...
-- Matplotlib ... 
+- Numpy 
+- Scipy 
+- Matplotlib 
+- Joblib
 
 [![DOI](https://zenodo.org/badge/451439295.svg)](https://zenodo.org/badge/latestdoi/451439295)
